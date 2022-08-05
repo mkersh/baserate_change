@@ -39,9 +39,9 @@ Instructions:
     * (in-ns 'http.api.mambu.solutions.int_change.int_change)
     * 
     * ;; Then choose one of the two options below:
-    * ;; Get a single account update
+    * ;; [1] Get a single account update
     * (get-single-loan-schedule-update "2022-09-01" 0.5 "VMPL903")
-    * ;; Get updatess for all variable-rate loans accounts
+    * ;; [2] Get updates for all variable-rate loans accounts
     * (get-loan-schedule-updates-after-baserate-change "2022-09-01" 0.5)
 
 
