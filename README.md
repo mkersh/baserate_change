@@ -22,7 +22,7 @@ Instructions:
     1. git clone https://github.com/mkersh/baserate_change.git
 1. Add following aliases to your ~/.bash_profile (or equivalent):
     1. alias clojure-docker-baseratechange='cd $ROOT-FOLDER/baserate_change;./rundocker-repl'
-    1. alias clojure-docker-baserateREPL='cd $ROOT-FOLDER /baserate_change;docker run -it -v $(pwd):/app -w /app mkersh65/clojure:version2 lein repl'
+    1. alias clojure-docker-baserateREPL='cd $ROOT-FOLDER/baserate_change;docker run -it -v $(pwd):/app -w /app mkersh65/clojure:version2 lein repl'
 1. Edit your local src/http/ENV.clj file
     1. This contains details on the Mambu tenant to connect to and apiKey for authentication
         1. setup env for "env17", which is the one the script is using
