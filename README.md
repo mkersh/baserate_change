@@ -28,8 +28,8 @@ Instructions:
         1. setup env for "env17", which is the one the script is using
 1. Edit your local [src/http/api/mambu/solutions/int_change/int_change.clj](https://github.com/mkersh/baserate_change/blob/main/src/http/api/mambu/solutions/int_change/int_change.clj)
     * Edit the PRODKEY_PREVIEW_MAP to container the variable-interest-rate product(s) and their corresponding calculator-product to use
-        * Create the calculator-product by copying the product and changing the interest-rate-type to FIXED - Leave all other settings the ssame
-1. Goto {{root-folder}}/baserate_change folder in a terminal and run
+        * Create the calculator-product by copying the product and changing the interest-rate-type to FIXED - Leave all other settings the same
+1. Goto $ROOT-FOLDER/baserate_change folder in a terminal and run
     1. One of the aliases above, either clojure-docker-baseratechange or clojure-docker-baserateREPL
         1. Both start a clojure REPL in a docker container:
             1. clojure-docker-baseratechange allows you to connect to the REPL from an Clojure editor/IDE
