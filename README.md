@@ -27,10 +27,11 @@ Instructions:
     * (2.2) alias clojure-docker-baserateREPL='cd {ROOT-FOLDER}/baserate_change;docker run -it -v $(pwd):/app -w /app mkersh65/clojure:version2 lein repl'
 1. Edit your local src/http/ENV.clj file
     * ENV.clj contains details of the Mambu tenant to connect to and apiKey for authentication
-        * setup "env17", which is the one the script is currently using
+        * setup "env17", which is the one the script is currently using.
 1. Edit your local [src/http/api/mambu/solutions/int_change/int_change.clj](https://github.com/mkersh/baserate_change/blob/main/src/http/api/mambu/solutions/int_change/int_change.clj)
-    * <font size="1">Edit the PRODKEY_PREVIEW_MAP to container the variable-interest-rate product(s) and their corresponding calculator-product to use
-        * Create the calculator-product by copying the product and changing the interest-rate-type to FIXED (leave all other settings the same).</font>
+    * Edit the PRODKEY_PREVIEW_MAP to container the variable-interest-rate product(s) and their corresponding calculator-product to use
+        * Create the calculator-product by copying the product and changing the interest-rate-type to FIXED (leave all other settings the same).
+
 1. Goto {ROOT-FOLDER}/baserate_change folder in a terminal and run
     * Either the clojure-docker-baseratechange or clojure-docker-baserateREPL alias
         * Both start a clojure REPL in a docker container:
