@@ -30,4 +30,4 @@
   :test-paths ["test" "src"]
   ; Setting this to ClojureNotebook breaks the REPL load
   :xaot :all
-  :main repl_start)
+  :main http.api.mambu.solutions.int_change.int_change)
