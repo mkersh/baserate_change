@@ -49,3 +49,5 @@ heapdump.*
 javacore.*
 Snap.*
 BASERATE-UPDATES/*
+.openvscode-server/*
+.lein/*
